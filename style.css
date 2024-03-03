@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 .MainHeader{
@@ -19,7 +21,7 @@
     align-items: center;
     padding-left: 20px;
     padding-right: 20px;
-    
+    z-index: 999;
 }
 .MainHeader img{
     height: 1.56rem;
@@ -87,6 +89,65 @@
     align-items: center;
     justify-content: space-between;
 }
+.landPage{
+    position: relative;
+    top: 75px;
+    font-size: 16px;
+}
+
+/*CSS Variables*/
+:root{
+    --headFont:Arial, Helvetica, sans-serif;
+    --headFontWeight:bold;
+    --headSuperscript:0.4em;
+}
+
+.CarouselFont{
+    font-size: 16px;
+}
+.CaptionStyle{
+    width: 31.25em;
+    height: 14em;
+    color: white;
+ 
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: start;  
+}
+.CaptionStyle h1{
+    font-family: var(--headFont);
+    font-weight: var(--headFontWeight);
+    font-size: 2.8em;
+    cursor: default;
+}
+.CaptionStyle sup{
+    font-size: var(--headSuperscript);
+    top: -1.2em;
+}
+.CaptionStyle p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    cursor: default;
+}
+.CaptionStyle button{
+    border-radius: 3.125em;
+    font-size:small;
+    font-weight: bold;
+    border-style: none;
+    padding: 0.8em 1.8em ;
+    align-self: flex-start;
+    cursor: pointer;
+}
+.CaptionStyle button:hover{
+    background-color: lightgray;
+}
+.carousel-item{
+    position: relative;
+}
+
+
 
 @media screen and (min-width: 1280px) {
     .navbar ul{
@@ -96,7 +157,45 @@
     {
         display: none;
     }
-}
-@media screen and (max-width:1279) {
 
+    .rightCaptionPosition{
+        position: absolute;
+        top: 35%;
+        left: 50%;
+    }
+    .leftCaptionPosition{
+        position: absolute;
+        top: 35%;
+        left: 10%;
+    }
+
+    
+}
+@media screen and (min-width: 500px) and (max-width: 1279px) {
+
+    .CarouselFont{
+        font-size: 12px;
+    }
+    .CaptionStyle{
+        width: 31.25em;
+        height: 16em;
+        color: white;
+     
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: start;  
+    }
+    .rightCaptionPosition{
+        position: absolute;
+        top: 25%;
+        left: 50%;
+    }
+    .leftCaptionPosition{
+        position: absolute;
+        top: 25%;
+        left: 10%;
+    }
+ 
 }
