@@ -13,7 +13,7 @@
     margin-left: auto;
     margin-right: auto;
 
-    position: fixed;
+  
     
     padding: 10px 0;
     display: flex;
@@ -90,8 +90,8 @@
     justify-content: space-between;
 }
 .landPage{
-    position: relative;
-    top: 75px;
+    
+   
     font-size: 16px;
 }
 
@@ -147,6 +147,100 @@
     position: relative;
 }
 
+.centerAlign{
+    text-align: center;
+}
+.SecondPage{
+    
+    font-size: 16px;
+}
+.Highlightlist li{
+    list-style: none;
+    display: inline-flex;
+    padding: 0 12px;
+    
+}
+.bigHighlight{
+    width: 42.5em;
+    height: 42.75em;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.smallHighlight{
+    width: 20.6em;
+    height: 20.6em;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PositionToBack{
+    position: absolute;
+    overflow: hidden;
+}
+
+.Bigimage img{
+    width: 42.4em;
+}
+
+.smallImage img{
+    width: 21em;
+}
+
+.cardList li{
+    list-style: none;
+    display: inline-flex;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.ExploreImage{
+    width: 40vw;
+    height: 40vw;
+    border-radius: 50px;
+
+    overflow: hidden;
+}
+.Explorelist{
+    margin-left: 35px;
+    margin-top: 100px;
+}
+.Explorelist li a{
+
+    text-decoration: none;
+    color: black;
+    
+}
+.Explorelist ul li{
+    list-style: none;
+
+    margin-top: 30px;
+}
+
+.Topfooter{
+    font-size: small;
+}
+
+.FooterLeft li{
+    list-style: none;
+    display: inline-flex;
+   
+    padding-right: 20px;
+}
+.FooterRight{
+    text-align: end;
+}
+.FooterRight li{
+    list-style: none;
+    display: inline-flex;
+    padding-left: 20px;
+
+}
+
 
 
 @media screen and (min-width: 1280px) {
@@ -168,25 +262,21 @@
         top: 35%;
         left: 10%;
     }
+    .SecondPage{
+     
+        font-size: 14px;
+    }
+
+
 
     
 }
-@media screen and (min-width: 500px) and (max-width: 1279px) {
+@media screen and (min-width: 1100px) and (max-width: 1279px) {
 
     .CarouselFont{
-        font-size: 12px;
+        font-size: 15px;
     }
-    .CaptionStyle{
-        width: 31.25em;
-        height: 16em;
-        color: white;
-     
-        
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        text-align: start;  
-    }
+
     .rightCaptionPosition{
         position: absolute;
         top: 25%;
@@ -197,5 +287,117 @@
         top: 25%;
         left: 10%;
     }
+    .SecondPage{
+     
+        font-size: 12px;
+    }
+    .Highlightlist li{
+        font-size: medium;
+         
+     }
+
+     
+
+    
+}
+@media screen and (min-width: 900px) and (max-width: 1099px) {
+
+    .CarouselFont{
+        font-size: 15px;
+    }
+
+    .rightCaptionPosition{
+        position: absolute;
+        top: 25%;
+        left: 50%;
+    }
+    .leftCaptionPosition{
+        position: absolute;
+        top: 25%;
+        left: 10%;
+    }
+    .SecondPage{
+     
+        font-size: 10px;
+    }
+    .Highlightlist li{
+        font-size: medium;
+         
+     }
+
+
+
+}
+
+
+
+
+
+
+@media screen and (min-width:700px) and (max-width:899px) {
+    
+    .CarouselFont{
+        font-size: 10px;
+    }
+
+    .rightCaptionPosition{
+        position: absolute;
+        top: 14%;
+        left: 50%;
+    }
+    .leftCaptionPosition{
+        position: absolute;
+        top: 20%;
+        left: 10%;
+    }
+    .SecondPage{
+     
+        font-size: 8px;
+    }
+
+    .Highlightlist li{
+        font-size: medium;
+         
+     }
  
+  
+}
+
+@media screen and (max-width:699px) {
+    
+    .CarouselFont{
+        font-size: 10px;
+    }
+
+    .rightCaptionPosition{
+        position: absolute;
+        top: 14%;
+        left: 50%;
+    }
+    .leftCaptionPosition{
+        position: absolute;
+        top: 20%;
+        left: 10%;
+    }
+
+    .bigHighlight{
+        width: 90vw;
+        height: 90vw;
+    
+        background-color: black;
+    }
+    .smallHighlight{
+        width: 40vw;
+        height: 40vw;
+     
+        
+    }
+
+    .Bigimage img{
+        width: 89.5vw;
+    }
+    .smallImage img{
+        width: 40.5vw;
+    }
+
 }
