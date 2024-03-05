@@ -243,7 +243,32 @@
 
 
 
-@media screen and (min-width: 1280px) {
+.NormallButton{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    padding: 10px 20px ;
+    border-radius: 50px;
+    border-style: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    
+}
+.NormallButton:hover{
+    background-color: gray;
+}
+.GadgetsSectionHeader h1{
+    font-weight: bold;
+}
+
+
+/* New */
+
+
+@media screen and (min-width:1280px) {
+
     .navbar ul{
         display: block;
     }
@@ -269,9 +294,162 @@
 
 
 
+    .MobileSection{
+        width: 100%;
+        height: 800px;
+        
+        
+       
+        overflow: hidden;
+        position: relative;
     
+    }
+    .GadgetsSectionHeader{
+        width: 100%;
+        height: 150px;
+        
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+    }
+    .GadgetsSectionHeader h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 45px;
+        padding: 5px 0;
+        cursor: default;
+    }
+
+    .GadgetsSectionDetails{
+        width: 100%;
+        height: 180px;
+        
+        position: relative;
+        margin-top: 590px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .GadgetsSectionDetails div a{
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 0 10px;
+    }
+
+    .GadgetsSectionDetails h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 50px;
+        padding: 5px 0;
+        cursor: default;
+    }
+    .GadgetsSectionDetails p{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        
+        padding: 10px 0;
+    }
+    
+
 }
-@media screen and (min-width: 1100px) and (max-width: 1279px) {
+
+
+
+@media screen and (min-width:992px) and (max-width:1279px) {
+    
+
+    .CarouselFont{
+        font-size: 15px;
+    }
+
+    .rightCaptionPosition{
+        position: absolute;
+        top: 25%;
+        left: 50%;
+    }
+    .leftCaptionPosition{
+        position: absolute;
+        top: 25%;
+        left: 10%;
+    }
+    
+    .Highlightlist li{
+        font-size: medium;
+         
+     }
+
+     .SecondPage{
+     
+        font-size: 11px;
+    }
+
+
+
+
+    .MobileSection{
+        width: 100%;
+        height: 800px;
+        
+        
+       
+        overflow: hidden;
+        position: relative;
+    
+    }
+    .GadgetsSectionHeader{
+        width: 100%;
+        height: 150px;
+        
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+    }
+    .GadgetsSectionHeader h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 45px;
+        padding: 5px 0;
+        cursor: default;
+    }
+  
+    .GadgetsSectionDetails{
+        width: 100%;
+        height: 180px;
+        
+        position: relative;
+        margin-top: 590px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .GadgetsSectionDetails div a{
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 0 10px;
+    }
+
+    .GadgetsSectionDetails h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        
+        cursor: default;
+    }
+    .GadgetsSectionDetails p{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        
+        padding: 10px 0;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
 
     .CarouselFont{
         font-size: 15px;
@@ -289,52 +467,79 @@
     }
     .SecondPage{
      
-        font-size: 12px;
+        font-size: 8px;
     }
     .Highlightlist li{
         font-size: medium;
          
      }
 
-     
 
+
+     
+    .MobileSection{
+        width: 100%;
+        height: 800px;
+        
+        
+        
+        overflow: hidden;
+        position: relative;
+    
+    }
+    .GadgetsSectionHeader{
+        width: 100%;
+        height: 150px;
+        
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+    }
+    .GadgetsSectionHeader h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 45px;
+        padding: 5px 0;
+        
+        cursor: default;
+    }
+
+    .GadgetsSectionDetails{
+        width: 100%;
+        height: 180px;
+        
+        position: relative;
+        margin-top: 590px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .GadgetsSectionDetails div a{
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 0 10px;
+    }
+
+    .GadgetsSectionDetails h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        
+        cursor: default;
+    }
+    .GadgetsSectionDetails p{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        
+        padding: 10px 0;
+    }
     
 }
-@media screen and (min-width: 900px) and (max-width: 1099px) {
 
-    .CarouselFont{
-        font-size: 15px;
-    }
-
-    .rightCaptionPosition{
-        position: absolute;
-        top: 25%;
-        left: 50%;
-    }
-    .leftCaptionPosition{
-        position: absolute;
-        top: 25%;
-        left: 10%;
-    }
-    .SecondPage{
-     
-        font-size: 10px;
-    }
-    .Highlightlist li{
-        font-size: medium;
-         
-     }
-
-
-
-}
-
-
-
-
-
-
-@media screen and (min-width:700px) and (max-width:899px) {
+@media screen and (min-width:576px) and (max-width:767px) {
     
     .CarouselFont{
         font-size: 10px;
@@ -350,21 +555,108 @@
         top: 20%;
         left: 10%;
     }
+    .bigHighlight{
+        width: 39.5em;
+        height: 39.5em;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .smallHighlight{
+        width: 18em;
+        height: 18em;
+        background-color: green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Bigimage img{
+        width: 39.5em;
+    }
+    
+    .smallImage img{
+        width: 18em;
+    }
+
+
     .SecondPage{
      
-        font-size: 8px;
+        font-size: 7px;
     }
 
     .Highlightlist li{
         font-size: medium;
          
      }
+    
+    
+
+     .MobileSection{
+        width: 100%;
+        height: 800px;
+        
+        
+       
+        overflow: hidden;
+        position: relative;
+    
+    }
+    .GadgetsSectionHeader{
+        width: 100%;
+        height: 150px;
+        
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+    }
+    .GadgetsSectionHeader h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 45px;
+        padding: 5px 0;
+        
+        cursor: default;
+    }
+
+    .GadgetsSectionDetails{
+        width: 100%;
+        height: 180px;
+        
+        position: relative;
+        margin-top: 590px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .GadgetsSectionDetails div a{
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 0 10px;
+    }
+
+    .GadgetsSectionDetails h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        
+        cursor: default;
+    }
+    .GadgetsSectionDetails p{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        
+        padding: 10px 0;
+    }
  
-  
 }
 
-@media screen and (max-width:699px) {
-    
+@media screen and (max-width:575px) {
+
     .CarouselFont{
         font-size: 10px;
     }
@@ -399,5 +691,72 @@
     .smallImage img{
         width: 40.5vw;
     }
+
+
+
+    .MobileSection{
+        width: 100%;
+        height: 690px;
+        
+        
+       
+        overflow: hidden;
+        position: relative;
+    
+    }
+    .GadgetsSectionHeader{
+        width: 100%;
+        height: 150px;
+        margin-top: -40px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+    }
+    .GadgetsSectionHeader h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 45px;
+        padding: 5px 0;
+        
+        cursor: default;
+    }
+
+    .GadgetsSectionDetails{
+        width: 100%;
+        height: 180px;
+        
+        position: relative;
+        margin-top: 450px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .GadgetsSectionDetails div a{
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 0 10px;
+    }
+
+    .GadgetsSectionDetails h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        
+        cursor: default;
+    }
+    .GadgetsSectionDetails p{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        
+        padding: 10px 0;
+    }
+ 
+    .resizeBTNsection img{
+        width: 1000px;
+    }
+
 
 }
