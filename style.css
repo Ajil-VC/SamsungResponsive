@@ -266,6 +266,26 @@
 
 /* New */
 
+.HighlightedTiles{
+    display: flex;
+    flex-direction: column;
+    margin-top: 9em;
+    background-color: red;
+}
+
+.cardInnerSection{
+    display: flex;
+    justify-content: center;
+
+}
+.leftTop{
+    display: flex;
+    justify-content: center;
+}
+.rightBottom{
+    display: flex;
+    justify-content: center;
+}
 
 @media screen and (min-width:1280px) {
 
@@ -350,9 +370,21 @@
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
         
-        padding: 10px 0;
+        padding: 10px 0; 
     }
-    
+    /* .CardCarousel{
+        display: flex !important; 
+    }
+    .cardCarouselItem{
+        display: block !important;
+       
+        margin: auto;
+        flex: 0 0 calc(100%/5);
+    }
+
+    .card{
+        width: 18rem;
+    } */
 
 }
 
@@ -447,6 +479,20 @@
         
         padding: 10px 0;
     }
+
+    /* .carousel-inner{
+        display: flex;
+    }
+    .carousel-item{
+        display: block;
+       
+        margin: auto;
+        flex: 0 0 calc(100%/5);
+    }
+
+    .card{
+        width: 18rem;
+    } */
 }
 
 @media screen and (min-width:768px) and (max-width:991px) {
@@ -536,6 +582,17 @@
         
         padding: 10px 0;
     }
+
+    /* .carousel-inner{
+        display: flex;
+    }
+    .carousel-item{
+        display: block;
+        margin-right: 0;
+        flex: 0 0 calc(100%/3);
+    }*/
+
+  
     
 }
 
@@ -652,7 +709,30 @@
         
         padding: 10px 0;
     }
+
+    /* .carousel-inner{
+        display: flex;
+    }
+    .carousel-item{
+        display: block;
+        margin-right: 0;
+        flex: 0 0 calc(100%/3);
+    } */
  
+    .cardInnerSection{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    
+    }
+    .leftTop{
+        display: flex;
+        justify-content: center;
+    }
+    .rightBottom{
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width:575px) {
@@ -758,5 +838,28 @@
         width: 1000px;
     }
 
+    .cardInnerSection{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    
+    }
+    .leftTop{
+        display: flex;
+        justify-content: center;
+    }
+    .rightBottom{
+        display: flex;
+        justify-content: center;
+    }
 
+    /* .carousel-inner{
+        display: flex;
+    }
+    .carousel-item{
+        display: block;
+        margin-right: 0;
+        flex: 0 0 calc(100%/3);
+    } */
 }
+
