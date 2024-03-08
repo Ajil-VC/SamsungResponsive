@@ -372,19 +372,7 @@
         
         padding: 10px 0; 
     }
-    /* .CardCarousel{
-        display: flex !important; 
-    }
-    .cardCarouselItem{
-        display: block !important;
-       
-        margin: auto;
-        flex: 0 0 calc(100%/5);
-    }
 
-    .card{
-        width: 18rem;
-    } */
 
 }
 
@@ -480,19 +468,7 @@
         padding: 10px 0;
     }
 
-    /* .carousel-inner{
-        display: flex;
-    }
-    .carousel-item{
-        display: block;
-       
-        margin: auto;
-        flex: 0 0 calc(100%/5);
-    }
 
-    .card{
-        width: 18rem;
-    } */
 }
 
 @media screen and (min-width:768px) and (max-width:991px) {
@@ -583,14 +559,13 @@
         padding: 10px 0;
     }
 
-    /* .carousel-inner{
-        display: flex;
+    .FooterLeft{
+      text-align: center;
     }
-    .carousel-item{
-        display: block;
-        margin-right: 0;
-        flex: 0 0 calc(100%/3);
-    }*/
+    .FooterRight{
+        text-align: center;
+        
+    }
 
 }
 
@@ -708,14 +683,7 @@
         padding: 10px 0;
     }
 
-    /* .carousel-inner{
-        display: flex;
-    }
-    .carousel-item{
-        display: block;
-        margin-right: 0;
-        flex: 0 0 calc(100%/3);
-    } */
+
  
     .cardInnerSection{
         display: flex;
@@ -743,6 +711,15 @@
         font-size: 1.4em;
         padding: 8px 18px;
     }
+
+    .FooterLeft{
+        text-align: center;
+      }
+      .FooterRight{
+          text-align: center;
+          
+          
+      }
     
 }
 
@@ -864,14 +841,7 @@
         justify-content: center;
     }
 
-    /* .carousel-inner{
-        display: flex;
-    }
-    .carousel-item{
-        display: block;
-        margin-right: 0;
-        flex: 0 0 calc(100%/3);
-    } */
+
 
     .HighlightedTiles{
         display: flex;
@@ -882,6 +852,29 @@
     .NormallButton{
         font-size: 0.8em;
         padding: 8px 18px;
+    }
+
+    .FooterLeft {
+        text-align: center;
+        font-size: small;
+
+        display: flex;
+        justify-content: center ;
+        
+      }
+
+      .FooterRight{
+          text-align: center;
+          font-size: small;
+      }
+
+      
+   
+
+      .FooterLeft li{
+        
+       
+        padding-right: 10px;
     }
 }
 
